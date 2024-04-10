@@ -1,0 +1,37 @@
+{
+  "id": "4502732",
+  "name": "react-mobile-demo",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1212289",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "6572870",
+      "name": "资讯",
+      "font_class": "zixun",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "21743884",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e75b",
+      "unicode_decimal": 59227
+    },
+    {
+      "icon_id": "26033215",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    }
+  ]
+}
