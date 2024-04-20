@@ -1,7 +1,9 @@
 
-
+import '../../assets/style/reset.css'
+import '../../assets/style/common.css'
 import { Swiper, Toast } from 'antd-mobile'
 import './home.css'
+import { HotNav } from './components/hotNav'
 
 export function Home () {
   const colors = ['#ace0ff', '#bcffbd', '#e4fabd', '#ffcfac']
@@ -24,11 +26,12 @@ export function Home () {
         loop
         autoplay
         onIndexChange={i => {
-          console.log(i, 'onIndexChange1')
+          // console.log(i, 'onIndexChange1')
         }}
       >
         {items}
       </Swiper>
+      <HotNav></HotNav>
     </div>
   )
 }

@@ -1,0 +1,430 @@
+/* 通用样式，各个主题通用样式 */
+
+/* 字体大小 */
+.fs_12 {
+  font-size: 12px;
+}
+.fs_14 {
+  font-size: 14px;
+}
+.fs_15 {
+  font-size: 15px;
+}
+.fs_16 {
+  font-size: 16px;
+}
+.fs_20 {
+  font-size: 20px;
+}
+.fs_24 {
+  font-size: 24px;
+}
+.fs_28 {
+  font-size: 28px;
+}
+
+/* 字体粗细 */
+.fw_400 {
+  font-weight: 400;
+}
+.fw_500 {
+  font-weight: 500;
+}
+.fw_600 {
+  font-weight: 600;
+}
+.fw_700 {
+  font-weight: 700;
+}
+.fw_800 {
+  font-weight: 800;
+}
+
+/* 文本位置 */
+.tac {
+  text-align: center;
+}
+.tal {
+  text-align: left;
+}
+.tar {
+  text-align: right;
+}
+.vam {
+  vertical-align: middle;
+}
+
+/* 主体内容 */
+.bd {
+  /* 有media bd 样式 */
+  max-width: 1010px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  /* padding: 24px 17px 0 17px; */
+  padding: 20px 0;
+}
+
+/* 内边距 */
+.pt_2 {
+  padding-top: 2px;
+}
+.pb_2 {
+  padding-bottom: 2px;
+}
+.pl_2 {
+  padding-left: 2px;
+}
+.pr_2 {
+  padding-right: 2px;
+}
+.padding_2 {
+  padding: 2px;
+}
+
+.pt_8 {
+  padding-top: 8px;
+}
+.pb_8 {
+  padding-bottom: 8px;
+}
+.pl_8 {
+  padding-left: 8px;
+}
+.pr_8 {
+  padding-right: 8px;
+}
+.px_8 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.padding_8 {
+  padding: 8px;
+}
+
+.pt_10 {
+  padding-top: 10px;
+}
+.pb_10 {
+  padding-bottom: 10px;
+}
+.pl_10 {
+  padding-left: 10px;
+}
+.pr_10 {
+  padding-right: 10px;
+}
+.px_10 {
+  padding: 0 10px;
+}
+.py_10 {
+  padding: 10px 0;
+}
+.padding_10 {
+  padding: 10px;
+}
+
+.pt_15 {
+  padding-top: 15px;
+}
+.pb_15 {
+  padding-bottom: 15px;
+}
+.pl_15 {
+  padding-left: 15px;
+}
+.pr_15 {
+  padding-right: 15px;
+}
+.padding_15 {
+  padding: 15px;
+}
+
+.pl_20 {
+  padding-left: 20px;
+}
+.pr_20 {
+  padding-right: 20px;
+}
+.px_20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.py_5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* 外边距 */
+.mt_4 {
+  margin-top: 4px;
+}
+.mb_4 {
+  margin-bottom: 4px;
+}
+.ml_4 {
+  margin-left: 4px;
+}
+.mr_4{
+  margin-right: 4px;
+}
+.margin_4 {
+  margin: 4px;
+}
+
+.mt_8 {
+  margin-top: 8px;
+}
+.mb_8 {
+  margin-bottom: 8px;
+}
+.ml_8 {
+  margin-left: 8px;
+}
+.mr_8 {
+  margin-right: 8px;
+}
+.mr_11 {
+  margin-right: 11px;
+}
+.margin_8 {
+  margin: 8px;
+}
+
+.mt_10 {
+  margin-top: 10px;
+}
+.mb_10 {
+  margin-bottom: 10px;
+}
+.ml_10 {
+  margin-left: 10px;
+}
+.mr_10 {
+  margin-right: 10px;
+}
+.mx_10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.margin_10 {
+  margin: 10px;
+}
+
+.mt_12 {
+  margin-top: 12px;
+}
+
+.mt_15 {
+  margin-top: 15px;
+}
+.mb_15 {
+  margin-bottom: 15px;
+}
+.ml_15 {
+  margin-left: 15px;
+}
+.mr_15 {
+  margin-right: 15px;
+}
+.margin_15 {
+  margin: 15px;
+}
+
+.mt_20 {
+  margin-top: 20px;
+}
+.mb_20 {
+  margin-bottom: 20px;
+}
+.ml_20 {
+  margin-left: 20px;
+}
+.mr_20 {
+	margin-right: 20px;
+  }
+.margin_20 {
+  margin: 20px;
+}
+
+/* 浮动 */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clear::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* 内联块 */
+.ib {
+  display: inline-block;
+}
+
+/* 文字缩略 */
+.to_els{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.to_els2{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+ 
+}
+.to_els3{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: pre-wrap;
+}
+
+/* flex布局 */
+.flex_row {
+  display: flex;
+  flex-direction: row;
+}
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+.flex_space_between {
+  display: flex;
+  justify-content: space-between;
+}
+.flex_space_around {
+  display: flex;
+  justify-content: space-around;
+}
+.flex_left {
+  display: flex;
+  justify-content: flex-start;
+}
+.flex_right {
+  display: flex;
+  justify-content: flex-end;
+}
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex_align_center {
+  display: flex;
+  align-items: center;
+}
+
+/* 鼠标移动变小手 */
+.po {
+  cursor: pointer;
+}
+
+/* 横向滚动条变透明（滚动条不可见） */
+.ox_scroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+  &::-webkit-scrollbar{
+    width: 2px;
+    height: 2px;
+  }
+  /*定义滚动条轨道 内阴影+圆角*/
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  /*定义滑块 内阴影+圆角*/
+  &::-webkit-scrollbar-thumb{
+    background-color: transparent;
+  }
+}
+
+/* 纵向滚动条美化（灰色） */
+.oy_scroll {
+  /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+  ::-webkit-scrollbar{
+    width: 4px;
+    height: 4px;
+  }
+  /*定义滚动条轨道 内阴影+圆角*/
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  /*定义滑块 内阴影+圆角*/
+  ::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(57, 33, 77, .1);
+    -webkit-box-shadow: inset 0 0 6px rgba(57, 33, 77, .1);
+    background-color: rgba(144, 147, 153, 0.5);
+  }
+}
+
+/* 显示隐藏 */
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.opacity_0 {
+  opacity: 0;
+}
+
+.no_data {
+  height: 100%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 折叠内容 */
+.collapse_content {
+  overflow: hidden;
+  transition: .3s height ease-in-out;
+}
+.lh_26 {
+  line-height: 26px;
+}
+.click_img {
+  flex: auto;
+  text-align: right;
+}
+.team_details_title {
+  height: 26px;
+  border-bottom: 1px solid var(--dark_purple);
+}
+/* 表格下边框 */
+.bb {
+  border-bottom: 1px solid var(--white);
+}
+.bb:last-child {
+  border: 0;
+}
+.winner {
+  color: var(--red_winner);
+  font-weight: 600;
+}
+.drawn {
+  color: var(--red_drawn);
+  font-weight: 600;
+}
+.irm {
+  color: var(--black1);
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .bd {
+    padding: 20px 10px;
+  }
+}
